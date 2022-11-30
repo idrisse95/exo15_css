@@ -1,16 +1,15 @@
 #carrer {
   animation: carrer 4s infinite alternate;
   position: relative;
+  /* animation-fill-mode: both;
+  animation-iteration-count:2; */
  
 }
 #carrer:hover{
   animation-play-state: paused;
 }
 @keyframes carrer {
-  0%   {left: 200px;top:0px}
-  25%  {left: 200px;top: 200px;}
-  75%  {left: 0px;top:200px}
-  100% {left: 0px;top:0px}
+  0%{left:0px; top: 0px;} 25%{left:200px;top: 0px;} 50%{top:200px;left: 200px;} 75%{top:200px; left: 0px;} 100%{left:0px;top: 0px;}
 }
 
 #bounce2{
