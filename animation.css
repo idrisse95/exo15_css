@@ -1,6 +1,10 @@
-div {
-  animation: mymove 4s reverse infinite;
+#carrer {
+  animation: mymove 4s infinite alternate;
   position: relative;
+ 
+}
+#carrer:hover{
+  animation-play-state: paused;
 }
 @keyframes mymove {
   0%   {left: 200px;top:0px}
