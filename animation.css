@@ -1,12 +1,12 @@
 #carrer {
-  animation: mymove 4s infinite alternate;
+  animation: carrer 4s infinite alternate;
   position: relative;
  
 }
 #carrer:hover{
   animation-play-state: paused;
 }
-@keyframes mymove {
+@keyframes carrer {
   0%   {left: 200px;top:0px}
   25%  {left: 200px;top: 200px;}
   75%  {left: 0px;top:200px}
