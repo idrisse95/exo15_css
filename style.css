@@ -10,6 +10,7 @@ div {
   margin-bottom: 200px;
 }
 div:nth-child(2n) {
+  transition: 1s;
 }
 h2 {
   margin: 100px;
