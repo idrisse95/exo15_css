@@ -1,5 +1,6 @@
 div {
   animation: mymove 1s;
+  animation-direction: alternate-reverse;
 }
 @keyframes mymove {
     from {left: 0px;} /* 0% */
