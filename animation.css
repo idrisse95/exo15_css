@@ -1,39 +1,31 @@
-#carrer {
+div {
   animation: carrer 4s infinite alternate;
   position: relative;
   /* animation-fill-mode: both;
   animation-iteration-count:2; */
  
 }
-#carrer:hover{
+div:hover{
   animation-play-state: paused;
 }
 @keyframes carrer {
   0%{left:0px; top: 0px;} 25%{left:200px;top: 0px;} 50%{top:200px;left: 200px;} 75%{top:200px; left: 0px;} 100%{left:0px;top: 0px;}
 }
 
-#bounce2{
+
+
+#bounce-title{
   position: relative;
-  animation: new 2s infinite alternate;
-  letter-spacing: 5px;
+  animation: testé 2s infinite alternate ;
 }
 
-@keyframes new{
-
-    0%   {top: 0px;height: 36px;font-size: 36px;}
-    100% {top: 100px; height:0px;font-size: 0px;}
-  
-}
-
-
-#bounce2 h2{
-  position: relative;
-  animation: bounce 2s infinite alternate;
-  letter-spacing: 5px;
-}
-
-@keyframes bounce{
-  0%   {top: 0px;font-size: 36px;}
-  100% {top: 100px;font-size: 0px;}
-
-}
+@keyframes testé {
+    from {
+      top: 0%;
+      transform: scaleX(100%);
+    }
+    to {
+      top: 15%;
+      transform: scaleY(0%);
+    }
+  }
